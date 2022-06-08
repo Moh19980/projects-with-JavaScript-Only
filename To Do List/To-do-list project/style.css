@@ -1,0 +1,148 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #352f5b;
+    color: #fff;
+}
+
+ h1{
+    text-align: center;
+    font-size: 4rem;
+
+   
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+background-image: linear-gradient(to top, #352f5b, rgba(147, 78, 78, 0.2));
+
+ }
+
+ .task{
+   
+     margin-top: 30px;
+     margin-bottom: 30px;
+     width: 70vw;
+     margin-left: auto;
+     margin-right: auto;
+padding:  20px;
+display: flex;
+justify-content: space-between;
+
+
+/* background: rgba( 206, 29, 161, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid #fff; */
+background: rgba( 232, 71, 119, 0.85 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.5px );
+-webkit-backdrop-filter: blur( 11.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+ }
+
+ p{
+     font-size: 22px;
+ }
+
+
+
+ .icon:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star, .icon-trash{
+    opacity: 0.4;
+    font-size: 27px;
+}
+
+.icon-star:hover{
+    color: orange;
+    opacity: 1;
+    font-size: 29px;
+}
+
+.icon-trash{
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+
+.icon-trash:hover{
+color: rgb(255, 242, 217);
+font-size: 29px;
+opacity: 1;
+}
+
+.icon-angry2{
+    color: rgb(247, 219, 97);
+    font-size: 24px;
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+
+button {all: unset;}
+
+
+.icon-upload{
+    font-size: 40px;
+   
+    margin-left: 17px;
+    
+    position: relative;
+    top: 9px;
+
+ 
+}
+
+
+.icon-upload:hover{ 
+    font-size: 43px;
+transition: 0.2s;
+color: rgb(160, 250, 205);
+ }
+
+ .orange{
+ 
+    color: rgb(248, 168, 38);
+    opacity: 1;
+  
+  }
+  .finish{
+    text-decoration-line: line-through;
+    text-decoration-style:wavy ;
+  }
+  
+  
+  form{
+    text-align: center;
+    margin-bottom: 200px;
+  }
